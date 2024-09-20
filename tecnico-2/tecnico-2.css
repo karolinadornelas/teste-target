@@ -1,0 +1,19 @@
+body {
+    font-family: "Jua", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgb(175, 199, 214);
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}

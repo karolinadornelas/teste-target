@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <title>Faturamento Mensal</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            font-family: "Jua", sans-serif;
+            background-color: rgb(175, 199, 214);
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px;
+            font-size: 16px;
+        }
+        #resultado {
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Faturamento Mensal por Estado</h1>
+
+    <h4>Informe os valores de faturamento:</h4>
+    <label for="sp">SP:</label>
+    <input type="number" id="sp" placeholder="R$67.836,43" />
+    
+    <label for="rj">RJ:</label>
+    <input type="number" id="rj" placeholder="R$36.678,66" />
+    
+    <label for="mg">MG:</label>
+    <input type="number" id="mg" placeholder="R$29.229,88" />
+    
+    <label for="es">ES:</label>
+    <input type="number" id="es" placeholder="R$27.165,48" />
+    
+    <label for="outros">Outros:</label>
+    <input type="number" id="outros" placeholder="R$19.849,53" />
+
+    <button id="calcular-btn">Calcular Percentuais</button>
+
+    <div id="resultado"></div>
+
+    <script src="tecnico-4.js"></script>
+
+    <footer>
+        <p>karolinadornelas</p>
+    </footer>
+</body>
+</html>
